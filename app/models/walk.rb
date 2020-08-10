@@ -18,11 +18,7 @@ class Walk
     end
     #shows whether the dog walker is walking their favorite breed
     def happy_walker?
-        if @dog_walker.favorite_breed == @dog.breed 
-            true
-        else
-            false
-        end
+        @dog_walker.favorite_breed == @dog.breed 
     end
     #prints the details of a walk instance
     def print_details
